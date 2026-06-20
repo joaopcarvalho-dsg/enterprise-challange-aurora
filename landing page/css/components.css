@@ -1,0 +1,395 @@
+/* ===== BUTTONS ===== */
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.4rem 2.4rem;
+  background-color: var(--pink);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  border-radius: 0.8rem;
+  transition: opacity 0.3s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.85;
+}
+
+.btn-primary.dark {
+  background-color: #1A1325;
+}
+
+.btn-primary.dark:hover {
+  background-color: #261840;
+  opacity: 1;
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.4rem 2.4rem;
+  background-color: transparent;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  border-radius: 0.8rem;
+  border: 1.5px solid var(--white-48);
+  transition: border-color 0.3s ease;
+}
+
+.btn-outline:hover {
+  border-color: var(--white);
+}
+
+.btn-plano {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 0.8rem;
+  transition: opacity 0.3s ease;
+}
+
+.btn-plano:hover {
+  opacity: 0.85;
+}
+
+.card-plano.rosa .btn-plano {
+  background-color: var(--pink);
+  color: var(--white);
+}
+
+.card-plano.violeta .btn-plano {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.btn-form {
+  width: 100%;
+  padding: 1.8rem;
+  background-color: var(--pink);
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 0.8rem;
+  border: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  font-family: "Geist", sans-serif;
+}
+
+.btn-form:hover {
+  opacity: 0.85;
+}
+
+/* ===== CARDS ===== */
+
+.card-problema {
+  background-color: var(--white);
+  border: 1px solid #E8E8E8;
+  border-radius: 1.6rem;
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  box-shadow: 0 4px 8.5px rgba(0, 0, 0, 0.06);
+}
+
+.card-problema .icon {
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.card-problema h5 {
+  color: var(--black);
+  font-size: 2.0rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 130%;
+}
+
+.card-problema p {
+  color: #787878;
+  font-size: 1.6rem;
+  line-height: 160%;
+}
+
+.card-plataforma {
+  background-color: var(--white);
+  border-radius: 1.6rem;
+  padding: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.card-plataforma .numero.seta {
+  background-color: #EB57AC;
+}
+
+.card-plataforma .numero.seta img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.card-plataforma .numero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: #F5B0D8;
+  color: #EB57AC;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 0.8rem;
+}
+
+.card-plataforma h5 {
+  color: var(--black);
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 130%;
+}
+
+.card-plataforma p {
+  color: #787878;
+  font-size: 1.5rem;
+  line-height: 160%;
+}
+
+.card-depoimento {
+  background-color: var(--white);
+  border: 1px solid #E8E8E8;
+  border-radius: 1.6rem;
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
+
+.card-depoimento p {
+  color: #5a5a5a;
+  font-size: 1.6rem;
+  line-height: 165%;
+}
+
+.card-depoimento .autor {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.card-depoimento .autor img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.card-depoimento .autor strong {
+  display: block;
+  color: var(--black);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.card-depoimento .autor span {
+  color: #787878;
+  font-size: 1.4rem;
+}
+
+.card-plano {
+  border-radius: 1.6rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.card-plano.rosa {
+  background-color: var(--white);
+  border: 1px solid #E8E8E8;
+}
+
+.card-plano.violeta {
+  background-color: #1A1325;
+  border: 1px solid #1A1325;
+}
+
+.card-plano-top h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.8rem;
+}
+
+.card-plano.rosa .card-plano-top h3 {
+  color: var(--pink);
+}
+
+.card-plano.violeta .card-plano-top h3 {
+  color: var(--white);
+}
+
+.card-plano-top > p {
+  font-size: 1.5rem;
+  margin-bottom: 3.2rem;
+}
+
+.card-plano.rosa .card-plano-top > p {
+  color: #787878;
+}
+
+.card-plano.violeta .card-plano-top > p {
+  color: #ffffff80;
+}
+
+.card-plano-top ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.card-plano-top ul li {
+  font-size: 1.6rem;
+  line-height: 140%;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.card-plano-top ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.7rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+}
+
+.card-plano.rosa .card-plano-top ul li {
+  color: var(--black);
+}
+
+.card-plano.rosa .card-plano-top ul li::before {
+  background-color: var(--pink);
+}
+
+.card-plano.violeta .card-plano-top ul li {
+  color: #ffffffcc;
+}
+
+.card-plano.violeta .card-plano-top ul li::before {
+  background-color: var(--purple);
+}
+
+.card-plano-bottom .preco {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.card-plano-bottom .preco .cifrao {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.card-plano-bottom .preco .valor {
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.card-plano-bottom .preco .periodo {
+  font-size: 1.6rem;
+}
+
+.card-plano.rosa .card-plano-bottom .preco {
+  color: var(--black);
+}
+
+.card-plano.violeta .card-plano-bottom .preco {
+  color: var(--white);
+}
+
+.card-plano-bottom .preco-info {
+  font-size: 1.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.card-plano.rosa .card-plano-bottom .preco-info {
+  color: #787878;
+}
+
+.card-plano.violeta .card-plano-bottom .preco-info {
+  color: #ffffff60;
+}
+
+/* ===== FORM ===== */
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.field label {
+  color: #3a3a3a;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  padding: 1.2rem 1.6rem;
+  border: 1px solid #DEDEDE;
+  border-radius: 0.8rem;
+  font-size: 1.5rem;
+  color: var(--black);
+  background-color: var(--white);
+  outline: none;
+  transition: border-color 0.2s ease;
+  font-family: "Geist", sans-serif;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: var(--purple);
+}
+
+.field textarea {
+  resize: vertical;
+  min-height: 10rem;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6rem;
+}
+
+.form-obs {
+  color: #999;
+  font-size: 1.3rem;
+  line-height: 150%;
+  text-align: center;
+}

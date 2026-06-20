@@ -1,0 +1,13 @@
+:root {
+  /* colors */
+  --pink: #E744A2;
+  --purple: #7959AB;
+  --white: #ffffff;
+  --black: #1F1F1F;
+
+  /* alpha */
+  --white-08: rgba(255, 255, 255, 0.08);
+  --white-16: rgba(255, 255, 255, 0.16);
+  --white-24: rgba(255, 255, 255, 0.24);
+  --white-48: rgba(255, 255, 255, 0.48);
+}
