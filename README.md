@@ -1,4 +1,4 @@
-# Aurora Protagonize — Landing Page
+# Aurora — Landing Page
 
 Landing page desenvolvida em HTML e CSS puro como entrega da **Etapa 1 do Enterprise Challenge — People First Cup**, turma 1TWDOA.
 
